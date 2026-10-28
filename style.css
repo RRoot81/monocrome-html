@@ -1,0 +1,26 @@
+header {
+background-color: lightgray;
+padding: 30px;
+
+}
+nav {
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: right;
+}
+
+a{
+text-decoration: none;
+}
+
+.a-nav{
+color: black;
+}
+
+.un-partie{
+    padding: 200px;
+    color: white;
+    background-position: center;
+    background-size: cover;
+    background-image:url(asset/asset/bg-image-hero.png);
+    
+}

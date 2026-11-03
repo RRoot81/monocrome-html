@@ -1,11 +1,28 @@
-header {
-background-color: lightgray;
-padding: 30px;
-
+body{
+    margin: 0px;
+    padding: 0;
 }
+
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    display: flex;
+    background-color: lightgray;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    a{
+        padding: 15px;
+    }
+}
+
+
 nav {
 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 text-align: right;
+
 }
 
 a{
@@ -17,10 +34,41 @@ color: black;
 }
 
 .un-partie{
-    padding: 200px;
+    display: flex;
+    padding: 200px 200px;
     color: white;
     background-position: center;
     background-size: cover;
     background-image:url(asset/asset/bg-image-hero.png);
-    text-size-adjust: ;
+    flex-direction: column;
+    font-size: 150%;
+}
+main > section{
+padding: 5vw 20vw;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.partie-deux{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.partie-deux-deux{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.article-full-text{
+    a{
+        padding: 5px;
+        border-radius: 6px;
+        color:white;
+        background-color: gray;
+    }
 }

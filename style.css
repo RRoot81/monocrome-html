@@ -67,8 +67,12 @@ h2{
 .article-full-text{
     a{
         padding: 5px;
-        border-radius: 6px;
+        border-radius: 5px;
         color:white;
         background-color: gray;
     }
+}
+
+h2, h3, h4 {
+    font-weight: bold;
 }

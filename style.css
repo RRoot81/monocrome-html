@@ -83,10 +83,13 @@ h2, h3, h4 {
     background-position: center;
     background-size: cover;
     color: white;
+    h2 {
+        margin-top: 0;
+    }
     section {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        gap: 3vh;
         align-items: center;
         a {
             padding: 5px;
@@ -98,7 +101,7 @@ h2, h3, h4 {
             list-style: none;
             display: flex;
             justify-content: center;
-            gap: 20px;
+            gap: 2vw;
         }
     }
 }
@@ -107,7 +110,7 @@ h2, h3, h4 {
     display: flex;
     flex-direction: column;
     section {
-    
+        margin-top: 50px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;

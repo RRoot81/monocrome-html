@@ -106,7 +106,7 @@ h2, h3, h4 {
             color: black;
         }
         ul {
-            min-width: 65vw;
+            min-width: 64vw;
             margin: 0;
             list-style: none;
             display: flex;

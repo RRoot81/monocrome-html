@@ -103,3 +103,22 @@ h2, h3, h4 {
     }
 }
 
+.partie-quatre {
+    display: flex;
+    flex-direction: column;
+    section {
+    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        article {
+            margin: 5px;
+            display: flex;
+            flex-direction: column;
+
+        }
+    }
+
+}
+
